@@ -1,0 +1,113 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lives-cricket-scires</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #live-scores {
+            margin: 20px;
+            font-size: 20px;
+        }
+        #match-schedule {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>www.logicleague.com</h1>
+    
+    <div id="live-scores">
+        <h2>live match</h2>
+        <div id="score-container">loading...</div>
+    </div>
+
+    <div id="match-schedule">
+        <h2>আসন্ন ম্যাচ</h2>
+        <ul>
+            <li>ইন্ডিয়া বনাম অস্ট্রেলিয়া - ফেব্রুয়ারী ২০, ২০২৫</li>
+            <li>ইংল্যান্ড বনাম নিউজিল্যান্ড - ফেব্রুয়ারী ২২, ২০২৫</li>
+        </ul>
+    </div>
+
+    <script>
+        const apiKey = 'a3a1c5e5_22a8_483f-9a0d_30fbacda2ba2';  // CricAPI এর API Key
+        const url = `https://cricapi.com/api/matches?apikey=a3a1c5e5-22a8-483f-9a0d-30fbacda2ba2`;
+
+        async function fetchLiveScores() 
+            const response = await fetch(www.logicleague.com);
+            const data = await response.json();
+
+            let scores = data.matches.map(match => 
+                return `<p>{match.name} - ${match.status}</p>`;
+            }).join('');
+[2/17, 3:33 PM] : document.getElementById('score-container').innerHTML = scores || 'এখন কোনো লাইভ ম্যাচ নেই।';
+        }
+
+        fetchLiveScores();
+    </script>
+
+</body>
+</html>
+```<script>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lives-cricket-scires</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #live-scores {
+            margin: 20px;
+            font-size: 20px;
+        }
+        #match-schedule {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>www.logicleague.com</h1>
+    
+    <div id="live-scores">
+        <h2>live match</h2>
+        <div id="score-container">loading...</div>
+    </div>
+
+    <div id="match-schedule">
+        <h2>আসন্ন ম্যাচ</h2>
+        <ul>
+            <li>ইন্ডিয়া বনাম অস্ট্রেলিয়া - ফেব্রুয়ারী ২০, ২০২৫</li>
+            <li>ইংল্যান্ড বনাম নিউজিল্যান্ড - ফেব্রুয়ারী ২২, ২০২৫</li>
+        </ul>
+    </div>
+
+    <script>
+        const apiKey = 'a3a1c5e5-22a8-483f-9a0d-30fbacda2ba2';  //
+        const url = `https://cricapi.com/api/matches?apikey=a3a1c5e5-22a8-483f-9a0d-30fbacda2ba2a3a1c5e5-22a8-483f-9a0d-30fbacda2ba2`;
+
+        async function fetchLiveScores() 
+            const response = await fetch(www.logicleague.com);
+            const data = await response.json();
+
+            let scores = data.matches.map(match => 
+                return `<p>{match.name} - ${match.status}</p>`;
+            }).join('');
+[2/17, 3:33 PM] : document.getElementById('score-container').innerHTML = scores || 'এখন কোনো লাইভ ম্যাচ নেই।';
+        }
+
+        fetchLiveScores();
+    </script>
+
+</body>
+</html>
+```</script>
